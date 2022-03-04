@@ -13,7 +13,7 @@ const user: User = {
 }
 
 onMounted(() => {
-  console.log("Test")
+  console.log("Test", user)
 });
 
 const checkedNames = reactive([]);
